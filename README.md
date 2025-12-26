@@ -1,4 +1,6 @@
 # HOLDMYNUGGETS-SENTINEL-SOC-ANALSYT HANDS ON LAB
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/c3ca8940-fb7f-4941-807a-5e74f65d73f6" />
+
 # GENERATING AN ATTACK 
 
 ## Objective
