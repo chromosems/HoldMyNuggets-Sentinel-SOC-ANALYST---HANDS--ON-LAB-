@@ -64,7 +64,9 @@ This lab exercise teaches how to detect credential theft attempts using LimaChar
 
 
 # DETECTING ATTACK
-- By the end of this lab,  will be able to detect adversarial activity in LimaCharlie by analyzing telemetry from a Windows VM sensor. learn how to filter and investigate SENSITIVE_PROCESS_ACCESS events, specifically identifying credential dumping attempts targeting lsass.exe. Additionally, they will gain hands-on experience in crafting a Detection & Response (D&R) rule to automatically alert on such activity. Finally, they will validate their detection logic by executing the attack again and confirming that their custom detection rule successfully identifies the threat in real-time
+- By the end of this lab,  will be able to detect adversarial activity in LimaCharlie by analyzing telemetry from a Windows VM sensor. learn how to filter and investigate SENSITIVE_PROCESS_ACCESS events, specifically identifying credential dumping attempts targeting lsass.exe. Additionally, they will gain hands-on experience in crafting a Detection & Response (D&R) rule to automatically alert on such activity. Finally, they will validate their detection logic by executing the attack again and confirming that their custom detection rule successfully identifies the threat in real-time.
+- <img width="975" height="412" alt="image" src="https://github.com/user-attachments/assets/634362c3-7e27-407b-b08b-92e6de32067f" />
+
 
 
 
