@@ -66,6 +66,22 @@ This lab exercise teaches how to detect credential theft attempts using LimaChar
 # DETECTING ATTACK
 - By the end of this lab,  will be able to detect adversarial activity in LimaCharlie by analyzing telemetry from a Windows VM sensor. learn how to filter and investigate SENSITIVE_PROCESS_ACCESS events, specifically identifying credential dumping attempts targeting lsass.exe. Additionally, they will gain hands-on experience in crafting a Detection & Response (D&R) rule to automatically alert on such activity. Finally, they will validate their detection logic by executing the attack again and confirming that their custom detection rule successfully identifies the threat in real-time.
 - <img width="975" height="412" alt="image" src="https://github.com/user-attachments/assets/634362c3-7e27-407b-b08b-92e6de32067f" />
+- <img width="975" height="830" alt="image" src="https://github.com/user-attachments/assets/13678018-66e2-41af-bc79-8250c732baaa" />
+- lets build a detection rule that will alert anytime this kinda of activity occurs.
+- <img width="718" height="588" alt="image" src="https://github.com/user-attachments/assets/0da52220-c389-4a38-8fec-638400b36161" />
+- <img width="975" height="452" alt="image" src="https://github.com/user-attachments/assets/485fc842-d36f-49a8-b70f-f674fdf227e2" />
+- We’re specifying that this detection should only look atSENSITIVE_PROCESS_ACCESS events where the victim, or target process ends with lsass.exe - excluding a very noisy false positive in this VM, wmiprvse.exe
+- <img width="975" height="290" alt="image" src="https://github.com/user-attachments/assets/d7a75ce4-ed66-463c-8894-0f94ef373fd3" />
+- We’re telling LimaCharlie to simply generate a detection “report” anytime this detection occurs.  check out the docs. We could ultimately tell this rule to do all sorts of things, like terminate the offending process chain, etc. Let’s keep it simple for now.
+- <img width="975" height="1123" alt="image" src="https://github.com/user-attachments/assets/6be8e50e-5618-4422-8c35-bb32af8afd51" />
+- <img width="975" height="500" alt="image" src="https://github.com/user-attachments/assets/a0b8e87a-14ae-4cfc-bcf5-77adbcced60c" />
+
+
+
+
+
+
+
 
 
 
