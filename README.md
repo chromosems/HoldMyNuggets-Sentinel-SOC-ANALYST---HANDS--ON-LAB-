@@ -75,6 +75,13 @@ This lab exercise teaches how to detect credential theft attempts using LimaChar
 - We’re telling LimaCharlie to simply generate a detection “report” anytime this detection occurs.  check out the docs. We could ultimately tell this rule to do all sorts of things, like terminate the offending process chain, etc. Let’s keep it simple for now.
 - <img width="975" height="1123" alt="image" src="https://github.com/user-attachments/assets/6be8e50e-5618-4422-8c35-bb32af8afd51" />
 - <img width="975" height="500" alt="image" src="https://github.com/user-attachments/assets/a0b8e87a-14ae-4cfc-bcf5-77adbcced60c" />
+- Now lets re-run the same lsass.exe attack to test the automation.
+- <img width="975" height="155" alt="image" src="https://github.com/user-attachments/assets/2575c464-08fa-49da-a1fe-82ccd8efe10a" />
+- On lima charlie,under detection, addfilter = lsass
+- <img width="975" height="731" alt="image" src="https://github.com/user-attachments/assets/10187e54-cf42-4921-9780-8d3dd0cd0fc4" />
+
+
+
 
 
 
