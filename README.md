@@ -6,11 +6,11 @@ This lab exercise teaches how to detect credential theft attempts using LimaChar
 
 
 ### Skills Learned
--Generating attacks.
--Detecting.
--Monitoring logs.
--Threat hunting.
--Blocking attacks.
+- Generating attacks.
+- Detecting.
+- Monitoring logs.
+- Threat hunting.
+- Blocking attacks.
 
 
 ### Tools Used
